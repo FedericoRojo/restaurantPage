@@ -1,0 +1,149 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Content styles */
+#content {
+    margin: 20px;
+}
+
+.homepage {
+    text-align: center;
+}
+
+.homepage img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.homepage h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.homepage p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-page {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-details, .contact-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.menus-page {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.menu-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+}
+
+.menu-card img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-ingredients {
+    margin-bottom: 10px;
+}
